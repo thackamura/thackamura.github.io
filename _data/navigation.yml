@@ -1,8 +1,8 @@
 # main links links
 main:
     
-  - title: "CV"
-    url: /cv/
+  - title: "Cheetsheat"
+    url: /Cheetsheat/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "Checklists"
+    url: /checklists/
