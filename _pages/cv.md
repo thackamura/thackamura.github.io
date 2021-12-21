@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Cheetsheat"
+permalink: /Cheetsheat/
 author_profile: true
 redirect_from:
   - /resume
@@ -39,19 +39,19 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-Cheetsheat.html %}
   {% endfor %}</ul>
   
 Talks
 ======
   <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
+    {% include archive-single-talk-Cheetsheat.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
   <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-Cheetsheat.html %}
   {% endfor %}</ul>
   
 Service and leadership
