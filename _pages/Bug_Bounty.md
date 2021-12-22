@@ -78,8 +78,25 @@ Autres : amass intel -d DOMAINE -whois
 
 PS: Cette technique fonctionne de manière récursive
 
-# ![title](/files/1.png)
-
 
 Etape 3 - Trackers
 ======
+Si vous trouvez le même ID du même tracker dans 2 pages différentes, vous pouvez supposer que les deux pages sont gérées par la même équipe.
+<br/>Par exemple, si vous voyez le même ID de Google Analytics ou le même ID d'Adsense sur plusieurs pages.
+<br/>Il existe des pages qui vous permettent de faire des recherches par ces trackers et plus encore :
+
+* [builtwith.com](https://builtwith.com/)
+* [publicwww.com](https://publicwww.com/)
+* [spyonweb.com](https://spyonweb.com/)
+
+
+Etape 4 - Shodan
+======
+Comme vous le savez déjà, le nom de l'organisation propriétaire de l'espace IP. 
+<br/>Vous pouvez rechercher cette donnée dans shodan en utilisant : org : "EXEMPLE". 
+
+Etape 5 - Google Dorks
+======
+Dans l'utilisation quotidienne, les moteurs de recherche comme Google, Bing, DuckDuckGo et Yahoo acceptent un terme de recherche (un mot), ou une chaîne de termes de recherche, et renvoient les résultats correspondants. 
+<br/>Mais la plupart des moteurs de recherche sont programmés pour accepter des « filtres » ou des « opérateurs de préfixes » plus avancés.
+<br/>Utilisation du filtre « site :  » pour trouver des sous domaines.
