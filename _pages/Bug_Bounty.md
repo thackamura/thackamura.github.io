@@ -37,6 +37,6 @@ Le but de cette phase est d'obtenir toutes les sociétés appartenant à la soci
 Etape 1 - Acquisitions
 ======
 Tout d'abord, nous devons savoir quelles autres sociétés sont détenues par la société principale.
-<br/>L'une des possibilités consiste à consulter le site [crunchbase.com](https://www.crunchbase.com),à rechercher l'entreprise principale et à cliquer sur "acquisitions".
+<br/>L'une des possibilités consiste à consulter le site [crunchbase.com](https://www.crunchbase.com), à rechercher l'entreprise principale et à cliquer sur la section "acquisitions".
 
 
