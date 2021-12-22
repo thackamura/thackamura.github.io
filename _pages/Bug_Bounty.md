@@ -70,4 +70,6 @@ Etape 2 - Reverse Whois
 Dans un whois, vous pouvez trouver beaucoup d'informations intéressantes comme le nom de l'organisation, l'adresse, les emails, les numéros de téléphone... Mais ce qui est encore plus intéressant, c'est que vous pouvez trouver plus d'actifs liés à la société si vous effectuez des recherches inversées dans le whois par l'un de ces champs (par exemple d'autres registres whois où le même email apparaît).
 <br/>Vous pouvez utiliser des outils en ligne tels que :
 
-[viewdns.info](https://viewdns.info/reversewhois/), [domaineye.com](https://domaineye.com/reverse-whois), [reversewhois.io](https://www.reversewhois.io/)
+* [viewdns.info](https://viewdns.info/reversewhois/)
+* [domaineye.com](https://domaineye.com/reverse-whois)
+* [reversewhois.io](https://www.reversewhois.io/)
