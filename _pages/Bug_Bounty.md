@@ -23,14 +23,16 @@ La reconnaissance active a une approche très directe de la cible. Il s'agit en 
 
 <br/>
   
-Skills
+Découverte des actifs
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+On vous a dit que tout ce qui appartient à une certaine société se trouve dans le périmètre, et vous voulez savoir ce que cette société possède réellement.
+Le but de cette phase est d'obtenir toutes les sociétés appartenant à la société principale, puis tous les actifs de ces sociétés. Pour ce faire, nous allons :
+
+* Trouver les acquisitions de la société principale, cela nous donnera les sociétés à l'intérieur du périmètre.
+* Trouver l'ASN (s'il y en a un) de chaque société, ce qui nous donnera les plages d'IP appartenant à chaque société.
+* Utilisez les recherches inversées de whois pour trouver d'autres entrées (noms d'organisation, domaines...) liées à la première (ceci peut être fait de manière récursive).
+* Utiliser d'autres techniques comme shodan et sslfilters pour rechercher d'autres actifs.
+
 
 Publications
 ======
