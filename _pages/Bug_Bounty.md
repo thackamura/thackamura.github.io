@@ -39,4 +39,10 @@ Etape 1 - Acquisitions
 Tout d'abord, nous devons savoir quelles autres sociétés sont détenues par la société principale.
 <br/>L'une des possibilités consiste à consulter le site [crunchbase.com](https://www.crunchbase.com), à rechercher l'entreprise principale et à cliquer sur la section "acquisitions".
 
-
+Etape 2 - ASNs
+======
+Un numéro de système autonome (ASN) est un numéro unique attribué à un système autonome (AS) par l'Internet Assigned Numbers Authority (IANA).
+<br/>Un AS est constitué de blocs d'adresses IP qui ont une politique distincte d'accès aux réseaux externes et sont administrés par une seule organisation mais peuvent être constitués de plusieurs opérateurs.
+<br/>Il est intéressant de savoir si l'entreprise a attribué un ASN pour trouver ses plages IP. Il sera intéressant d'effectuer un test de vulnérabilité contre tous les hôtes à l'intérieur de la portée et de rechercher les domaines à l'intérieur de ces IP.
+<br/>Vous pouvez effectuer une recherche par nom de société, par IP ou par domaine sur [bgp.he.net](https://bgp.he.net/).
+<br/>Autres sources : [asnlookup.com](http://asnlookup.com/) [ipv4info.com](http://ipv4info.com/) [amass](https://github.com/OWASP/Amass)
