@@ -100,3 +100,31 @@ Etape 5 - Google Dorks
 Dans l'utilisation quotidienne, les moteurs de recherche comme Google, Bing, DuckDuckGo et Yahoo acceptent un terme de recherche (un mot), ou une chaîne de termes de recherche, et renvoient les résultats correspondants. 
 <br/>Mais la plupart des moteurs de recherche sont programmés pour accepter des « filtres » ou des « opérateurs de préfixes » plus avancés.
 <br/>Utilisation du filtre « site :  » pour trouver des sous domaines.
+
+<br/>
+
+Sous-domaines
+======
+Nous connaissons toutes les entreprises du périmètre, tous les actifs de chaque entreprise et tous les domaines liés à ces entreprises.
+<br/>Il est temps de trouver tous les sous-domaines possibles de chaque domaine trouvé.
+
+Etape 1 - OSINT
+======
+Le moyen le plus rapide d'obtenir un grand nombre de sous-domaines est de chercher dans des sources externes. 
+<br/>Un très bon endroit pour rechercher des sous-domaines est [crt.sh](https://crt.sh/).
+
+Autres : amass enum -d DOMAINE
+
+Etape 2 - Brute force DNS
+======
+Essayons de trouver de nouveaux sous-domaines en faisant du brute force les serveurs DNS en utilisant les noms de sous-domaines possibles.
+<br/>J’utilise personnellement gobuster.
+
+* gobuster dns -d DOMAINE -t 50 -w /usr/share/spiderfoot/discts/subdomains.txt
+
+<br/>
+
+Recherche de serveurs Web
+======
+
+
