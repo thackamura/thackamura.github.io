@@ -46,3 +46,20 @@ Un numéro de système autonome (ASN) est un numéro unique attribué à un syst
 <br/>Il est intéressant de savoir si l'entreprise a attribué un ASN pour trouver ses plages IP. Il sera intéressant d'effectuer un test de vulnérabilité contre tous les hôtes à l'intérieur de la portée et de rechercher les domaines à l'intérieur de ces IP.
 <br/>Vous pouvez effectuer une recherche par nom de société, par IP ou par domaine sur [bgp.he.net](https://bgp.he.net/).
 <br/>Autres sources : [asnlookup.com](http://asnlookup.com/) [ipv4info.com](http://ipv4info.com/) [amass](https://github.com/OWASP/Amass)
+
+<br/>
+
+Domaines
+======
+Nous connaissons toutes les entreprises du périmètre et leurs actifs, il est temps de trouver les domaines du périmètre.
+<br/>Veuillez noter que dans les techniques suivantes, vous pouvez également trouver des sous-domaines et que cette information ne doit pas être sous-estimée.
+<br/>Tout d'abord, vous devez rechercher le ou les domaines principaux de chaque entreprise. Par exemple, pour Orange, ce sera orange.com.
+
+
+Etape 1 - Reverse DNS
+======
+Comme vous avez trouvé toutes les plages d'adresses IP des domaines, vous pouvez essayer d'effectuer des recherches DNS inversées sur ces adresses IP pour trouver d'autres domaines dans le champ d'application. Essayez d'utiliser un serveur DNS de la victime ou un serveur DNS bien connu (1.1.1.1, 8.8.8.8).
+
+* dnsrecon -d facebook.com -r IP/Masque
+
+Autres : [ptrarchive.com](http://ptrarchive.com/)
