@@ -37,20 +37,5 @@ Le but de cette phase est d'obtenir toutes les sociétés appartenant à la soci
 Etape 1 - Acquisitions
 ======
 Tout d'abord, nous devons savoir quelles autres sociétés sont détenues par la société principale.
-L'une des possibilités consiste à consulter le site [cruchbase](https://www.crunchbase.com)
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-Cheetsheat.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-Cheetsheat.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<br/>L'une des possibilités consiste à consulter le site [cruchbase](https://www.crunchbase.com)
+
