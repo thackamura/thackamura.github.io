@@ -2,8 +2,11 @@
 main:
 
     
-  - title: "Cheetsheat"
-    url: /Cheetsheat/
+  - title: "Bug Bounty"
+    url: /Bug_Bounty/
+    
+#  - title: "Cheetsheat"
+#    url: /Cheetsheat/
     
 #  - title: "Checklists"
 #    url: /markdown/
