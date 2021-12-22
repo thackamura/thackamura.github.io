@@ -126,5 +126,31 @@ Essayons de trouver de nouveaux sous-domaines en faisant du brute force les serv
 
 Recherche de serveurs Web
 ======
+Nous avons trouvé toutes les entreprises et leurs actifs et nous connaissons les plages d'IP, les domaines et les sous-domaines à l'intérieur du périmètre. Il est temps de rechercher les serveurs web.
+<br/>Dans les étapes précédentes, vous avez probablement déjà effectué une reconnaissance des IP et des domaines découverts, et vous avez donc peut-être déjà trouvé tous les serveurs Web possibles. Cependant, si ce n'est pas le cas, nous allons maintenant voir quelques astuces rapides pour rechercher des serveurs web à l'intérieur du périmètre.
+<br/>Veuillez noter que cette recherche est orientée vers les applications web, vous devez également effectuer un scan des vulnérabilités et des ports (si le périmètre le permet).
 
+Etape 1 - Masscan
+======
+Une méthode rapide pour découvrir les ports ouverts liés aux serveurs web est d’utilisé masscan.
+* sudo masscan -p80,443,8000-8100,8443 IP/Masque
 
+Etape 2 - Captures d'écran
+======
+Maintenant que vous avez découvert tous les serveurs web fonctionnant dans le périmètre (dans les IP de l'entreprise et dans tous les domaines et sous-domaines), vous ne savez probablement pas par où commencer. Alors, faisons simple et commençons par faire des captures d'écran de chacun d'entre eux.
+<br/>En jetant un coup d'œil à la page principale de chacun d'entre eux, vous pourrez trouver des points d'accès étranges plus susceptibles d'être vulnérables.
+<br/>Utilisation de [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)
+
+<br/>
+
+Conclusion
+======
+A ce stade, vous avez déjà effectué toutes les énumérations de base. Oui, c'est basique parce que beaucoup d'autres énumérations peuvent être faites.
+<br/>Donc vous avez déjà :
+
+* Trouvé toutes les entreprises dans le périmètre
+* Trouvé tous les actifs appartenant aux entreprises
+* Trouvé tous les domaines appartenant aux entreprises
+* Trouvé tous les sous-domaines des domaines 
+* Trouver tous les serveurs web et en faire une capture d'écran 
+<br/>Ensuite, c'est l'heure de la vraie chasse aux vulnérabilités. 
