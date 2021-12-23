@@ -27,3 +27,8 @@ Phase de reconnaissance
 
 * Identifier la présence d'un WAF (wafw00f)
 * Identifier le serveur web et les technologies avec [wappalyzer](https://github.com/AliasIO/wappalyzer) et [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
+* Vérifier /robots.txt /crossdomain.xml /clientaccesspolicy.xml /sitemap.xml /.well-known/
+* Examiner les commentaires présent dans le code source (Burp Engagement Tools)
+* Enumération des répertoires (gobuster -u SITE -w WORDLIST)
+* Leak ([dehashed.com](https://www.dehashed.com/), [pwndb](https://github.com/davidtavarez/pwndb), [breachdirectory.com](https://breachdirectory.com/))
+* Google dork ([faisalahmed.me](https://dorks.faisalahmed.me/))
