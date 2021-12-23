@@ -32,3 +32,14 @@ Phase de reconnaissance
 * Enumération des répertoires (gobuster -u SITE -w WORDLIST)
 * Leak ([dehashed.com](https://www.dehashed.com/), [pwndb](https://github.com/davidtavarez/pwndb), [breachdirectory.com](https://breachdirectory.com/))
 * Google dork ([faisalahmed.me](https://dorks.faisalahmed.me/))
+* Obtenir des urls ([gau](https://github.com/lc/gau) , [waybackurls](https://github.com/tomnomnom/waybackurls))
+* Vérifier les urls potentiellement vulnérables ([gf-patterns](https://github.com/1ndianl33t/Gf-Patterns))
+* Trouver des paramètres cachés ([paramspider](https://github.com/devanshbatham/ParamSpider))
+* Recherche automatique de XSS ([dalfox](https://github.com/hahwul/dalfox))
+* Recherche de fichiers de sauvegarde ([bfac](https://github.com/mazen160/bfac))
+* Localiser les pages d'administration et de connexion
+* Obtenir tous les fichiers JS (Burp suite extension : JS Link Finder)
+* Analyse JS (JSParser, JSFScan, JSScanner, jshole)
+* Exécution d'un scanner automatisé ([rengine](https://github.com/yogeshojha/rengine))
+* Test CORS ([CORScanner](https://github.com/chenjj/CORScanner))
+
