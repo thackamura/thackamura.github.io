@@ -5,6 +5,8 @@ main:
   - title: "Bug Bounty"
     url: /Bug_Bounty/
     
+  - title: "Web Checklist"
+   url: /web-checklist/  
 #  - title: "Cheetsheat"
 #    url: /Cheetsheat/
     
