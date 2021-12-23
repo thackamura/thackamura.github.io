@@ -26,3 +26,4 @@ Phase de reconnaissance
 <br/>
 
 * Identifier la présence d'un WAF (wafw00f)
+* Identifier le serveur web et les technologies avec [wappalyzer](https://github.com/AliasIO/wappalyzer) et [WhatWeb](https://github.com/urbanadventurer/WhatWeb)
