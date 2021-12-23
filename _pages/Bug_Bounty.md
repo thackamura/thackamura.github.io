@@ -148,10 +148,10 @@ Conclusion
 A ce stade, vous avez déjà effectué toutes les énumérations de base. Oui, c'est basique parce que beaucoup d'autres énumérations peuvent être faites.
 <br/>Donc vous avez déjà :
 
-* Trouvé toutes les entreprises dans le périmètre
-* Trouvé tous les actifs appartenant aux entreprises
-* Trouvé tous les domaines appartenant aux entreprises
-* Trouvé tous les sous-domaines des domaines 
+* Trouver toutes les entreprises dans le périmètre
+* Trouver tous les actifs appartenant aux entreprises
+* Trouver tous les domaines appartenant aux entreprises
+* Trouver tous les sous-domaines des domaines 
 * Trouver tous les serveurs web et en faire une capture d'écran 
 
 <br/>Ensuite, c'est l'heure de la vraie chasse aux vulnérabilités. 
