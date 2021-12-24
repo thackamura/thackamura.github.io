@@ -68,3 +68,12 @@ Si le HTTP est uniquement utilisé et sert pour de l'envoi de données sensibles
 <br/>Scanner utile : 
 
 * [testssl.sh](https://github.com/drwetter/testssl.sh)
+
+<br/>
+
+Bypass 403 / 401
+======
+Essayez d'utiliser différents "verbs" via Burp pour accéder au fichier :
+* GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, INVENTED, HACK
+<br/>Changer l'en-tête Host pour une valeur arbitraire
+<br/>Fuzz HTTP Headers avec [ce tool](https://github.com/carlospolop/fuzzhttpbypass)
