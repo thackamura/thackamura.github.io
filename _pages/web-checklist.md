@@ -53,7 +53,7 @@ Quelques scanners standards
 * Burp
 * [nuclei](https://github.com/projectdiscovery/nuclei)
 
-<br/>Si un CMS est utilisé, n'oubliez pas de lancer un scanner
+<br/>Si un CMS est utilisé, n'oubliez pas de lancer un scanner en début de pentest 😉
 
 * [CMSScan](https://github.com/ajinabraham/CMSScan) 
 * [CMSmap](https://github.com/Dionach/CMSmap)
