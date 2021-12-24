@@ -18,7 +18,7 @@ Phase de reconnaissance
 <br/>
 
 * Recenser les sous-domaines via OSINT (subfinder, assetfinder, amass)
-* Recenser les sous-domaines via Brute Force (gobuster dns -d DOMAINE -t 50 -w /usr/share/spiderfoot/discts/subdomains.txt)
+* Recenser les sous-domaines via Brute Force (gobuster dns -d DOMAINE -t 50 -w /usr/share/spiderfoot/dicts/subdomains.txt)
 * [shodan.io](https://www.shodan.io/)
 * Transfert de zone (dig)
 * Captures d'écran avec [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)

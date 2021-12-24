@@ -120,7 +120,7 @@ Etape 2 - Brute force DNS
 Essayons de trouver de nouveaux sous-domaines en faisant du brute force les serveurs DNS en utilisant les noms de sous-domaines possibles.
 <br/>J’utilise personnellement gobuster.
 
-* gobuster dns -d DOMAINE -t 50 -w /usr/share/spiderfoot/discts/subdomains.txt
+* gobuster dns -d DOMAINE -t 50 -w /usr/share/spiderfoot/dicts/subdomains.txt
 
 <br/>
 
