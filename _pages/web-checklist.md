@@ -30,7 +30,7 @@ Phase de reconnaissance
 * Vérifier /robots.txt /crossdomain.xml /clientaccesspolicy.xml /sitemap.xml /.well-known/
 * Examiner les commentaires présent dans le code source (Burp Engagement Tools)
 * Enumération des répertoires (gobuster -u SITE -w WORDLIST)
-* Leak ([dehashed.com](https://www.dehashed.com/), [pwndb](https://github.com/davidtavarez/pwndb), [breachdirectory.com](https://breachdirectory.org/))
+* Leak ([dehashed.com](https://www.dehashed.com/), [pwndb](https://github.com/davidtavarez/pwndb), [breachdirectory.org](https://breachdirectory.org/))
 * Google dork ([faisalahmed.me](https://dorks.faisalahmed.me/))
 * Obtenir des urls ([gau](https://github.com/lc/gau) , [waybackurls](https://github.com/tomnomnom/waybackurls))
 * Vérifier les urls potentiellement vulnérables ([gf-patterns](https://github.com/1ndianl33t/Gf-Patterns))
@@ -43,3 +43,11 @@ Phase de reconnaissance
 * Exécution d'un scanner automatisé ([rengine](https://github.com/yogeshojha/rengine))
 * Test CORS ([CORScanner](https://github.com/chenjj/CORScanner))
 
+<br/>
+
+Scanners automatiques
+======
+Quelques scanners standards 
+* nikto
+* ZAP
+* Burp
