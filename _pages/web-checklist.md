@@ -75,8 +75,9 @@ Bypass 403 / 401
 ======
 Essayez d'utiliser différents "verbs" via Burp pour accéder au fichier :
 * GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, INVENTED, HACK
+<br/>
 
-* <br/>Changer l'en-tête Host pour une valeur arbitraire
-* <br/>Fuzz HTTP Headers avec [ce tool](https://github.com/carlospolop/fuzzhttpbypass)
-* <br/>Changer le protocole : HTTP -> HTTPS ou inversement
-* <br/>Vérifier si la ressource était accessible dans le passé via [archive.org](https://archive.org/web/)
+* Changer l'en-tête Host pour une valeur arbitraire
+* Fuzz HTTP Headers avec [ce tool](https://github.com/carlospolop/fuzzhttpbypass)
+* Changer le protocole : HTTP -> HTTPS ou inversement
+* Vérifier si la ressource était accessible dans le passé via [archive.org](https://archive.org/web/)
