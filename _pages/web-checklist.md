@@ -59,3 +59,12 @@ Si un CMS est utilisé, n'oubliez pas de lancer un scanner
 * [CMSmap](https://github.com/Dionach/CMSmap)
 * wpscan
 * [joomscan](https://github.com/OWASP/joomscan)
+
+<br/>
+
+SSL/TLS vulnerabilités
+======
+Si le HTTP est uniquement utilisé et sert pour de l'envoi de données sensibles alors check [ici](https://cwe.mitre.org/data/definitions/319.html).
+<br/>Scanner utile : 
+
+* [testssl.sh](https://github.com/drwetter/testssl.sh)
