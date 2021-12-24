@@ -8,6 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+Avant de commencer à vous présenter ma checklist, j'utilise pour prendre des notes [mind42.com](https://mind42.com/).
+<br/>Un moyen simple et surtout visuel de gérer correctement votre pentest 😄
+<br/>Bonne chance à vous 😋
 <br/>
 
 Phase de reconnaissance
