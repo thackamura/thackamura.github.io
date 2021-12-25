@@ -173,8 +173,7 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 <br/>
 
 **Payloads classiques**
-* <script>alert('XSS')</script>
-* <scr<script>ipt>alert('XSS')</scr<script>ipt>
+* '<scr<script>ipt>alert('XSS')</scr<script>ipt>'
 * "><script>alert('XSS')</script>
 * "><script>alert(String.fromCharCode(88,83,83))</script>
 * <script>\u0061lert('22')</script>
