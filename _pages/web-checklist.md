@@ -90,6 +90,13 @@ Failles applicatives
 
 SQL INJECTIONS
 ======
+L'injection SQL est une vulnérabilité de sécurité web qui permet à un attaquant d'interférer avec les requêtes qu'une application effectue dans sa base de données. 
+<br/>Elle permet généralement à un attaquant de visualiser des données qu'il n'est normalement pas en mesure de récupérer. 
+<br/>Il peut s'agir de données appartenant à d'autres utilisateurs, ou de toute autre donnée à laquelle l'application elle-même peut accéder. 
+<br/>Dans de nombreux cas, un attaquant peut modifier ou supprimer ces données, ce qui entraîne des changements persistants dans le contenu ou le comportement de l'application.
+
+<br/>
+
 **Tests classiques**
 * ' or 1=1 LIMIT 1 --
 * ' or 1=1 LIMIT 1 -- -
