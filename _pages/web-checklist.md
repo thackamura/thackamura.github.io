@@ -166,6 +166,6 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 **Quels sont les types d'attaques XSS ?**
 Il existe trois principaux types d'attaques XSS. Il s'agit de :
 
-* **XSS réfléchi**, où le script malveillant provient de la requête HTTP en cours. 
-* **XSS stocké**, où le script malveillant provient du côté serveur. 
-* **DOM-based XSS**, où la vulnérabilité existe dans le code côté client plutôt que dans le code côté serveur.
+* **XSS réfléchi**, peut être qualifié de « non permanent », est de loin le plus commun. Il apparaît lorsque des données fournies par un client web sont utilisées telles quelles par les scripts du serveur pour produire une page de résultats. Si les données non vérifiées sont incluses dans la page de résultat sans encodage des entités HTML, elles pourront être utilisées pour injecter du code dans la page dynamique reçue par le navigateur client.
+* **XSS stocké**, faille permanente ou du second ordre permet des attaques puissantes. Elle se produit quand les données fournies par un utilisateur sont stockées sur un serveur (dans une base de données, des fichiers, ou autre), et ensuite ré-affichées sans que les caractères spéciaux HTML aient été encodés.
+* **DOM-based XSS**, le problème est dans le script d'une page côté client. Par exemple, si un fragment de JavaScript accède à un paramètre d'une requête d'URL, et utilise cette information pour écrire du HTML dans sa propre page, et que cette information n'est pas encodée sous forme d'entités HTML, alors il y a probablement une vulnérabilité de type XSS.
