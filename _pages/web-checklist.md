@@ -154,3 +154,10 @@ Server-side request forgery (également connue sous le nom de SSRF) est une vuln
 * http://[0000::1]:80/
 * http://[0:0:0:0:0:ffff:127.0.0.1]/thefile
 * http://①②⑦.⓪.⓪.⓪
+
+<br/>
+
+XSS (Cross Site Scripting)
+======
+Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabilité web qui consiste à manipuler un site web vulnérable de manière à ce qu'il renvoie du JavaScript malveillant aux utilisateurs. 
+<br/>Lorsque le code malveillant s'exécute dans le navigateur d'une victime, l'attaquant peut compromettre totalement son interaction avec l'application.
