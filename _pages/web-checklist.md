@@ -128,12 +128,12 @@ Server-side request forgery (également connue sous le nom de SSRF) est une vuln
 * Usurpation de DNS (domaines pointant vers 127.0.0.1)
 * Accès à du contenu privé (filtré par IP ou uniquement accessible localement, comme le repertoire /admin).
 
-<br/> 
+
 
 **Outil**
 * [redirector](https://tools.intigriti.io/redirector/)
 
-<br/> 
+
 
 **Bypass localhost**
 * http://127.0.0.1:80
