@@ -85,7 +85,7 @@ Bypass 403 / 401
 
 <br/>
 
-Injections
+Failles applicatives
 ======
 
 SQL INJECTIONS
@@ -112,3 +112,8 @@ SQL INJECTIONS
 **Sources utiles**
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
 * [Guide-to-sql-injection](https://cobalt.io/blog/a-pentesters-guide-to-sql-injection-sqli)
+
+<br/>
+
+SSRF (Server Side Request Forgery)
+======
