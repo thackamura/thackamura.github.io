@@ -161,3 +161,11 @@ XSS (Cross Site Scripting)
 ======
 Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabilité web qui consiste à manipuler un site web vulnérable de manière à ce qu'il renvoie du JavaScript malveillant aux utilisateurs. 
 <br/>Lorsque le code malveillant s'exécute dans le navigateur d'une victime, l'attaquant peut compromettre totalement son interaction avec l'application.
+<br/>
+
+**Quels sont les types d'attaques XSS ?**
+Il existe trois principaux types d'attaques XSS. Il s'agit de :
+
+**XSS réfléchi**, où le script malveillant provient de la requête HTTP en cours.
+**XSS stocké**, où le script malveillant provient du côté serveur.
+**DOM-based XSS**, où la vulnérabilité existe dans le code côté client plutôt que dans le code côté serveur.
