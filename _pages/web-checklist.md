@@ -169,3 +169,19 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 * **XSS réfléchi**, peut être qualifié de « non permanent », est de loin le plus commun. Il apparaît lorsque des données fournies par un client web sont utilisées telles quelles par les scripts du serveur pour produire une page de résultats. Si les données non vérifiées sont incluses dans la page de résultat sans encodage des entités HTML, elles pourront être utilisées pour injecter du code dans la page dynamique reçue par le navigateur client.
 * **XSS stocké**, faille permanente ou du second ordre permet des attaques puissantes. Elle se produit quand les données fournies par un utilisateur sont stockées sur un serveur (dans une base de données, des fichiers, ou autre), et ensuite ré-affichées sans que les caractères spéciaux HTML aient été encodés.
 * **DOM-based XSS**, le problème est dans le script d'une page côté client. Par exemple, si un fragment de JavaScript accède à un paramètre d'une requête d'URL, et utilise cette information pour écrire du HTML dans sa propre page, et que cette information n'est pas encodée sous forme d'entités HTML, alors il y a probablement une vulnérabilité de type XSS.
+
+<br/>
+
+**Payloads classiques**
+* <script>alert('XSS')</script>
+* <scr<script>ipt>alert('XSS')</scr<script>ipt>
+* "><script>alert('XSS')</script>
+* "><script>alert(String.fromCharCode(88,83,83))</script>
+* <script>\u0061lert('22')</script>
+* <script>eval('\x61lert(\'33\')')</script>
+
+<br/>
+
+**Outils:**
+* [beef-xss](https://github.com/beefproject/beef)
+* [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
