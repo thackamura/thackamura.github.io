@@ -209,7 +209,7 @@ File Inclusion/Path traversal
 <br/>
 
 **Les 25 paramètres les plus vulnérables à une LFI** 
-![paramlfi](/files/paramlfi.jpg)
+![paramlfi](/files/paramlfi.jpg =25x)
 
 <br/>
 
