@@ -209,9 +209,10 @@ File Inclusion/Path traversal
 <br/>
 
 **Les 25 paramètres les plus vulnérables à une LFI** 
+<br/>
+
 ![paramlfi](/files/paramlfi.jpg)
 
 <br/>
 
-Un outil intéressant pour exploiter cette vulnérabilité : https://github.com/kurobeats/fimap
 
