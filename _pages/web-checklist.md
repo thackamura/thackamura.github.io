@@ -181,10 +181,11 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 File Inclusion/Path traversal
 ======
 **Remote File Inclusion (RFI)** : Le fichier est chargé à partir d'un serveur distant.
-**Local File Inclusion (LFI)** : Le serveur charge un fichier local.
-<br/>La vulnérabilité se produit lorsque l'utilisateur peut contrôler d'une manière ou d'une autre le fichier qui va être chargé par le serveur.
 
 <br/>
+
+**Local File Inclusion (LFI)** : Le serveur charge un fichier local.
+<br/>La vulnérabilité se produit lorsque l'utilisateur peut contrôler d'une manière ou d'une autre le fichier qui va être chargé par le serveur.
 
 * Fonctions PHP vulnérables : require, require_once, include, include_once.
 <br/>
@@ -208,7 +209,7 @@ File Inclusion/Path traversal
 <br/>
 
 **Les 25 paramètres les plus vulnérables à une LFI** 
-![paramlfi](files/paramlfi.jpg)
+![paramlfi](/files/paramlfi.jpg)
 
 <br/>
 
