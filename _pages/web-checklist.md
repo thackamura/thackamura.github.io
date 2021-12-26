@@ -205,6 +205,6 @@ File Inclusion/Path traversal
 
 ![paramlfi](/files/paramlfi.jpg)
 
-<br/>
-
-
+**Outils**
+* [fimap](https://github.com/kurobeats/fimap)
+* [Kadimus](https://github.com/P0cL4bs/Kadimus)
