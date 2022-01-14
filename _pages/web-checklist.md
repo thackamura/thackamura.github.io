@@ -213,3 +213,9 @@ File Inclusion/Path traversal
 
 Contrôle d'accès & Authentification
 ======
+A l’aide de mécanismes d’authentification, le contrôle d’accès vise à s’assurer que les 
+ressources hébergées sur un serveur ne sont accessibles qu’aux personnes autorisées. 
+<br/>Ces mécanismes d’authentification font appel à des fonctionnalités variées : cookies de
+session, mire d’authentification, .htaccess, etc. 
+<br/>Cette étape vise à examiner les moyens de contournement de ces mécanismes afin de 
+s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
