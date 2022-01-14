@@ -219,3 +219,13 @@ ressources hébergées sur un serveur ne sont accessibles qu’aux personnes aut
 session, mire d’authentification, .htaccess, etc. 
 <br/>Cette étape vise à examiner les moyens de contournement de ces mécanismes afin de 
 s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
+
+* Vérifier les messages d’erreurs d’authentification
+* Vérifier si la politique de mot de passe est assez robuste
+La sécurité de l’authentification passe naturellement par la mise en place d’une politique de mot de passe efficace. En premier lieu, la complexité du mot passe qui doit être imposée lors de la création d’un compte : il doit être suffisamment long (10 à 12 caractères) et intégrer des caractères spéciaux, minuscules et majuscules.
+* Vérifier que tous les contrôles d’authentification sont réalisés côté serveur et non côté client.
+* Vérifier que le mot de passe de l'utilisateur soit demandé avant toute opération sensible (modification d’informations sensibles : mot de passe, comptes de messagerie, informations de paiement, etc.).
+* Vérifier si le système de réinitialisation de mots de passe est sécurisé.
+La fonction « mot de passe oublié » et les autres chemins de récupération ne doivent pas révèler le mot de passe actuel ; et le nouveau mot de passe ne doit jamais être envoyé en clair à l’utilisateur.
+Un token unique, composé d’une chaine de caractères aléatoire, doit être généré à chaque demande de réinitialisation puis invalidé une fois la réinitialisation effectuée.
+* Vérifier que des mesures techniques anti « brute force » soient présentes
