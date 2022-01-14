@@ -223,16 +223,18 @@ s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
 
 **Vérifier les messages d’erreurs d’authentification**
 <br/>Les messages d’échec de connexion ne doivent pas indiquer l’origine de l’erreur (identifiant inconnu ou mot de passe invalide par exemple), car cela fournit des informations précieuses à un attaquant.
-
-<br/>En effet, lors d’une attaque par force brute par exemple, un message d’échec de connexion tel que « mot de passe invalide » permet à un attaquant de se concentrer sur l’identifiant renseigné, ce qui lui fait gagner beaucoup de temps.
-
-<br/>De plus, cela facilite l’énumération d’utilisateurs et donc des fuites de données lorsque l’identifiant est l’adresse email de l’utilisateur (ce qui est par ailleurs assez fréquent). Ces données peuvent être utilisées dans des attaques d’ingénierie sociale et notamment de spear phishing.
+En effet, lors d’une attaque par force brute par exemple, un message d’échec de connexion tel que « mot de passe invalide » permet à un attaquant de se concentrer sur l’identifiant renseigné, ce qui lui fait gagner beaucoup de temps.
+De plus, cela facilite l’énumération d’utilisateurs et donc des fuites de données lorsque l’identifiant est l’adresse email de l’utilisateur (ce qui est par ailleurs assez fréquent). Ces données peuvent être utilisées dans des attaques d’ingénierie sociale et notamment de spear phishing.
 
 **Vérifier si la politique de mot de passe est assez robuste**
 <br/>La sécurité de l’authentification passe naturellement par la mise en place d’une politique de mot de passe efficace. En premier lieu, la complexité du mot passe qui doit être imposée lors de la création d’un compte : il doit être suffisamment long (10 à 12 caractères) et intégrer des caractères spéciaux, minuscules et majuscules.
 
 **Vérifier que tous les contrôles d’authentification sont réalisés côté serveur et non côté client.**
+<br/>
+
 **Vérifier que le mot de passe de l'utilisateur soit demandé avant toute opération sensible (modification d’informations sensibles : mot de passe, comptes de messagerie, informations de paiement, etc.).**
+<br/>
+
 **Vérifier si le système de réinitialisation de mots de passe est sécurisé.**
 <br/>La fonction « mot de passe oublié » et les autres chemins de récupération ne doivent pas révèler le mot de passe actuel ; et le nouveau mot de passe ne doit jamais être envoyé en clair à l’utilisateur.
 <br/>Un token unique, composé d’une chaine de caractères aléatoire, doit être généré à chaque demande de réinitialisation puis invalidé une fois la réinitialisation effectuée.
