@@ -219,6 +219,7 @@ ressources hébergées sur un serveur ne sont accessibles qu’aux personnes aut
 session, mire d’authentification, .htaccess, etc. 
 <br/>Cette étape vise à examiner les moyens de contournement de ces mécanismes afin de 
 s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
+<br/>
 
 
 **Vérifier les messages d’erreurs d’authentification**
