@@ -253,3 +253,19 @@ s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
 *Un token unique, composé d’une chaine de caractères aléatoire, doit être généré à chaque demande de réinitialisation puis invalidé une fois la réinitialisation effectuée.*
 
 **Vérifier que des mesures techniques anti « brute force » soient présentes**
+<br/>
+
+**Vérifier que les attributs sécurisés pour les cookies de session, notamment HTTPOnly, secure et samesite soient présents.**
+<br/>
+
+*HTTPOnly permet d’éviter que l’identifiant de session soit accessible aux scripts Javascript, ce qui permet de contrer certaines méthodes de vol de session.*
+<br/>
+
+*L’attribut « Secure » quant à lui, informe les navigateurs que l’identifiant de session ne doit transiter que via des canaux HTTPS, ce qui permet de contrer certaines attaques basées sur l’écoute du réseau.*
+<br/>
+
+*Enfin, l’attribut « samesite » qui permet de se protéger contre des attaques de type CSRF.*
+
+**Vérifier que les identifiants de session ne soient pas exposé dans les URLs**
+
+**Vérifier que la session soit détruite lorsqu’un utilisateur se déconnecte de l’application.**
