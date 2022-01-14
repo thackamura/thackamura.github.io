@@ -225,7 +225,11 @@ s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
 <br/>
 
 *Les messages d’échec de connexion ne doivent pas indiquer l’origine de l’erreur (identifiant inconnu ou mot de passe invalide par exemple), car cela fournit des informations précieuses à un attaquant.*
+<br/>
+
 *En effet, lors d’une attaque par force brute par exemple, un message d’échec de connexion tel que « mot de passe invalide » permet à un attaquant de se concentrer sur l’identifiant renseigné, ce qui lui fait gagner beaucoup de temps.*
+<br/>
+
 *De plus, cela facilite l’énumération d’utilisateurs et donc des fuites de données lorsque l’identifiant est l’adresse email de l’utilisateur (ce qui est par ailleurs assez fréquent). Ces données peuvent être utilisées dans des attaques d’ingénierie sociale et notamment de spear phishing.*
 
 **Vérifier si la politique de mot de passe est assez robuste**
