@@ -23,6 +23,7 @@ Phase de reconnaissance
 
 * Recenser les sous-domaines via OSINT (subfinder, assetfinder, amass)
 * Recenser les sous-domaines via Brute Force (gobuster dns -d DOMAINE -t 50 -w /usr/share/spiderfoot/dicts/subdomains.txt)
+* Recenser les virtual hosts via Brute Force (gobuster vhost -u URL -t 150 -w /usr/share/wordlist/Seclists/Discovery/DNS/subdomains-top1million-110000.txt)
 * [shodan.io](https://www.shodan.io/)
 * Transfert de zone (dig)
 * Captures d'écran avec [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)
@@ -269,3 +270,8 @@ s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
 **Vérifier que les identifiants de session ne soient pas exposé dans les URLs**
 
 **Vérifier que la session soit détruite lorsqu’un utilisateur se déconnecte de l’application.**
+
+<br/>
+
+Elevation de privilege
+======
