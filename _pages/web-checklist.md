@@ -279,7 +279,7 @@ s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
 
 *Cela peut en fait être accessible par n'importe quel utilisateur, pas seulement les utilisateurs administratifs qui ont un lien vers la fonctionnalité dans leur interface utilisateur. Dans certains cas, l'URL d'administration peut être divulguée à d'autres emplacements, tels que le fichier robots.txt*
 
-**Vérifier si on peut accéder à la session d'un autre utilisateur en modifiant son id dans l'URL**
+**Vérifier la modification de l'id de session dans l'URL**
 <br/>
 
 *Les attaques d'élévation horizontale des privilèges peuvent utiliser des types de méthodes d'exploitation similaires à l'élévation verticale des privilèges. Par exemple, un utilisateur peut généralement accéder à la page de son propre compte à l'aide d'une URL comme celle-ci :*
