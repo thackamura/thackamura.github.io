@@ -271,7 +271,21 @@ s’affranchir du contrôle d’accès ou d’élever son niveau de privilèges.
 
 **Vérifier que la session soit détruite lorsqu’un utilisateur se déconnecte de l’application.**
 
+**Vérifier que les fonctionnalités sensibles soient protégées**
 <br/>
 
-Elevation de privilege
-======
+*Dans sa forme la plus élémentaire, l'élévation verticale des privilèges survient lorsqu'une application n'applique aucune protection sur les fonctionnalités sensibles. Par exemple, les fonctions administratives peuvent être liées à partir de la page d'accueil d'un administrateur mais pas à partir de la page d'accueil d'un utilisateur. Cependant, un utilisateur peut simplement accéder aux fonctions d'administration en accédant directement à l'URL d'administration appropriée.*
+<br/>
+
+*Cela peut en fait être accessible par n'importe quel utilisateur, pas seulement les utilisateurs administratifs qui ont un lien vers la fonctionnalité dans leur interface utilisateur. Dans certains cas, l'URL d'administration peut être divulguée à d'autres emplacements, tels que le fichier robots.txt*
+
+**Vérifier si on peut accéder à la session d'un autre utilisateur en modifiant son id dans l'URL**
+<br/>
+
+*Les attaques d'élévation horizontale des privilèges peuvent utiliser des types de méthodes d'exploitation similaires à l'élévation verticale des privilèges. Par exemple, un utilisateur peut généralement accéder à la page de son propre compte à l'aide d'une URL comme celle-ci :*
+<br/>
+
+*https://localhost/myaccount?id=123*
+<br/>
+
+*Désormais, si un attaquant modifie la valeur "id" du paramètre pour celle d'un autre utilisateur, il peut alors accéder à la page de compte d'un autre utilisateur, avec les données et les fonctions associées.*
