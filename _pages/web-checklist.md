@@ -212,6 +212,29 @@ File Inclusion/Path traversal
 
 <br/>
 
+File Upload
+======
+
+**Extensions classiques**
+* **PHP**: .php, .php2, .php3, .php4, .php5, .php6, .php7, .phps, .phps, .pht, .phtm, .phtml, .pgif, .shtml, .htaccess, .phar, .inc
+* **ASP**: .asp, .aspx, .config, .ashx, .asmx, .aspq, .axd, .cshtm, .cshtml, .rem, .soap, .vbhtm, .vbhtml, .asa, .cer, .shtml
+* **Jsp**: .jsp, .jspx, .jsw, .jsv, .jspf, .wss, .do, .action
+* **Perl**: .pl, .cgi
+
+**Bypass**
+* Utilisation de majuscules (**exemple**: *pHP5*)
+* Utiliser des extensions avant ou après / ajouter une couche supplémentaire(*file.png.php* ; *file.php.png* ; *file.png.jpg.php*)
+* Ajouter des caractères spéciaux (**exemple**: *file.php%0a*)
+* Trouver une faille pour renommer le fichier déjà téléchargé (pour changer l'extension).
+* Modifier le type MIME de la requête POST (**exemple**: Content-type: application/x-php >> Content-type: image/jpeg)
+* [Magic-bytes](https://systemweakness.com/bypassing-file-upload-restriction-using-magic-bytes-eb13e801f264)
+* [Polyglot-Files](https://medium.com/swlh/polyglot-files-a-hackers-best-friend-850bf812dd8a)
+
+
+
+
+<br/>
+
 Contrôle d'accès & Authentification
 ======
 A l’aide de mécanismes d’authentification, le contrôle d’accès vise à s’assurer que les 
