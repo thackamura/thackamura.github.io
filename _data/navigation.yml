@@ -2,8 +2,8 @@
 main:
 
     
-  - title: "Bug Bounty"
-    url: /Bug_Bounty/
+  - title: "Bug Bounty Recon"
+    url: /Bug_Bounty_recon/
     
   - title: "Web Checklist"
     url: /web-checklist/  
