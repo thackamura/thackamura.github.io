@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Bug Bounty Recaon"
+title: "Bug Bounty Recon"
 permalink: /Bug_Bounty_recon/
 author_profile: true
 redirect_from:
