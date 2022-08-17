@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Bug Bounty"
-permalink: /Bug_Bounty/
+title: "Bug Bounty Recaon"
+permalink: /Bug_Bounty_recon/
 author_profile: true
 redirect_from:
   - /resume
