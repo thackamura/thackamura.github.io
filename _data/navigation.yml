@@ -7,6 +7,9 @@ main:
     
   - title: "Web Checklist"
     url: /web-checklist/  
+
+  - title: "Pentest API"
+    url: /pentest-api/  
 #  - title: "Cheetsheat"
 #    url: /Cheetsheat/
     
