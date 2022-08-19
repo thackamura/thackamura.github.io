@@ -215,6 +215,8 @@ File Inclusion/Path traversal
 File Upload
 ======
 La **faille d'upload de fichier** est une faille permettant d'uploader des fichiers avec une extension non autorisée, cette faille est due à la mauvaise configuration du script d'upload ou à l'absence complète de sécurité. Celle ci est généralement présente dans les scripts d'upload d'images.
+<br/>
+
 **Extensions classiques**
 * **PHP**: .php, .php2, .php3, .php4, .php5, .php6, .php7, .phps, .phps, .pht, .phtm, .phtml, .pgif, .shtml, .htaccess, .phar, .inc
 * **ASP**: .asp, .aspx, .config, .ashx, .asmx, .aspq, .axd, .cshtm, .cshtml, .rem, .soap, .vbhtm, .vbhtml, .asa, .cer, .shtml
