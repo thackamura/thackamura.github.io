@@ -10,8 +10,10 @@ redirect_from:
 Welcome
 ======
 <br/>
-Ce site contient un tas d'informations, de scripts et de connaissances utilisées lors de mes pentests.
-<br/>Merci de visiter mon "petit" site 😄, si vous voulez participer à l'amélioration de celui-ci via vos connaissances, vous pouvez me contacter par Discord (thackamura#0001).
+Auditeur Pentester Confirmé pour <font color='orange'> Orange Cyberdefense. </font>
+<br/>
+Pentester avec une expertise sur les tests externes (API, Web, Client lourd...) sous différents formats (BlackBox / GreyBox / WhiteBox).
+
 
 
  
