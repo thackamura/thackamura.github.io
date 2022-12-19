@@ -14,7 +14,11 @@ Avant de commencer à vous présenter ma checklist, j'utilise pour prendre des n
 <br/>Bonne chance à vous 😋
 <br/>
 
-Phase de reconnaissance
+# Sommaire
+1. [Phase de reconnaissance](#recon)
+2. [Scanners automatiques](#scan)
+
+Phase de reconnaissance  <a name="recon"></a>
 ======
 * Obtenir l'ASN pour trouver les plages IP avec [bgp.he.net](https://bgp.he.net/)
 * Examiner les acquisitions avec [crunchbase.com](https://www.crunchbase.com/)
@@ -50,7 +54,7 @@ Phase de reconnaissance
 
 <br/>
 
-Scanners automatiques
+Scanners automatiques <a name="scan"></a>
 ======
 Quelques scanners standards 
 * nikto
