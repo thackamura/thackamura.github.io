@@ -17,6 +17,19 @@ Avant de commencer à vous présenter ma checklist, j'utilise pour prendre des n
 # Sommaire
 1. [Phase de reconnaissance](#recon)
 2. [Scanners automatiques](#scan)
+3. [SSL/TLS vulnerabilités](#ssl)
+4. [Bypass 403 / 401](#bypass)
+5. [Failles applicatives](#appli)
+    1. [SQL INJECTIONS](#sqli)
+    2. [SSRF (Server Side Request Forgery)](#ssrf)
+    3. [XSS (Cross Site Scripting)](#xss)
+    4. [File Inclusion/Path traversal](#lfi)
+    5. [File Upload](#fileu)
+6. [Contrôle d'accès & Authentification](#acces)
+
+
+<br/>
+<br/>
 
 Phase de reconnaissance  <a name="recon"></a>
 ======
@@ -71,7 +84,7 @@ Quelques scanners standards
 
 <br/>
 
-SSL/TLS vulnerabilités
+SSL/TLS vulnerabilités <a name="ssl"></a>
 ======
 Si le HTTP est uniquement utilisé et sert pour de l'envoi de données sensibles alors check [ici](https://cwe.mitre.org/data/definitions/319.html).
 <br/>Scanner utile : 
@@ -80,7 +93,7 @@ Si le HTTP est uniquement utilisé et sert pour de l'envoi de données sensibles
 
 <br/>
 
-Bypass 403 / 401
+Bypass 403 / 401 <a name="bypass"></a>
 ======
 * Essayez d'utiliser différents "verbs" via Burp pour accéder au fichier : GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, INVENTED, HACK
 * Changer l'en-tête Host pour une valeur arbitraire
@@ -90,10 +103,10 @@ Bypass 403 / 401
 
 <br/>
 
-Failles applicatives
+Failles applicatives <a name="appli"></a>
 ======
 
-SQL INJECTIONS
+SQL INJECTIONS <a name="sqli"></a>
 ======
 L'injection SQL est une vulnérabilité de sécurité web qui permet à un attaquant d'interférer avec les requêtes qu'une application effectue dans sa base de données. 
 <br/>Elle permet généralement à un attaquant de visualiser des données qu'il n'est normalement pas en mesure de récupérer. 
@@ -125,7 +138,7 @@ L'injection SQL est une vulnérabilité de sécurité web qui permet à un attaq
 
 <br/>
 
-SSRF (Server Side Request Forgery)
+SSRF (Server Side Request Forgery) <a name="ssrf"></a>
 ======
 Server-side request forgery (également connue sous le nom de SSRF) est une vulnérabilité Web qui permet à un attaquant d'inciter l'application côté serveur à effectuer des requêtes HTTP vers un domaine arbitraire choisi par l'attaquant. 
 
@@ -162,7 +175,7 @@ Server-side request forgery (également connue sous le nom de SSRF) est une vuln
 
 <br/>
 
-XSS (Cross Site Scripting)
+XSS (Cross Site Scripting) <a name="xss"></a>
 ======
 Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabilité web qui consiste à manipuler un site web vulnérable de manière à ce qu'il renvoie du JavaScript malveillant aux utilisateurs. 
 <br/>Lorsque le code malveillant s'exécute dans le navigateur d'une victime, l'attaquant peut compromettre totalement son interaction avec l'application.
@@ -183,7 +196,7 @@ Le cross-site scripting (également connu sous le nom de XSS) est une vulnérabi
 
 <br/>
 
-File Inclusion/Path traversal
+File Inclusion/Path traversal <a name="lfi"></a>
 ======
 **Remote File Inclusion (RFI)** : Le fichier est chargé à partir d'un serveur distant.
 <br/> **Local File Inclusion (LFI)** : Le serveur charge un fichier local.
@@ -216,7 +229,7 @@ File Inclusion/Path traversal
 
 <br/>
 
-File Upload
+File Upload <a name="fileu"></a>
 ======
 La **faille d'upload de fichier** est une faille permettant d'uploader des fichiers avec une extension non autorisée, cette faille est due à la mauvaise configuration du script d'upload ou à l'absence complète de sécurité. Celle ci est généralement présente dans les scripts d'upload d'images.
 <br/>
@@ -241,7 +254,7 @@ La **faille d'upload de fichier** est une faille permettant d'uploader des fichi
 
 <br/>
 
-Contrôle d'accès & Authentification
+Contrôle d'accès & Authentification <a name="acces"></a>
 ======
 A l’aide de mécanismes d’authentification, le contrôle d’accès vise à s’assurer que les 
 ressources hébergées sur un serveur ne sont accessibles qu’aux personnes autorisées. 
