@@ -10,7 +10,7 @@ redirect_from:
 Welcome
 ======
 <br/>
-Auditeur Pentester Confirmé pour <font color='orange'> Orange Cyberdefense. </font>
+Auditeur Pentester / Formateur Freelance
 
 
 
